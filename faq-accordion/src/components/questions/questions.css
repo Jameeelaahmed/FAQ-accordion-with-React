@@ -11,3 +11,18 @@
     width: 20px;
     margin-left: 20px;
 }
+
+p{
+    width: 500px;
+}
+
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.9s ease; /* Smooth transition */
+}
+
+.answer.show {
+    max-height: 1000px; /* Set to a large value to expand smoothly */
+}
